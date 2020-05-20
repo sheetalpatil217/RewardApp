@@ -1,6 +1,15 @@
 var removeCategory;
 
 $(document).ready(function () {
+    
+    var len = $('script[src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"]').length;
+    
+    if(len===0){
+        alert("Script not loaded, Please Refresh");
+        $.getScript('https://raw.githack.com/SortableJS/Sortable/master/Sortable.js');
+    }
+    
+    
     let a = document.getElementById('A');
     let c1 = document.getElementById('C1');
     let c2 = document.getElementById('C2');
