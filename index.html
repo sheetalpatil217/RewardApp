@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Rewards App</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+     <!-- Latest compiled and minified font awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    
+    <!-- Latest Sortable -->
+    <script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CSS for styling the page -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- JavaScript for handling logic -->
+    <script type="text/javascript" src="./app.js"></script>
+
+</head>
+
+<body class="d-flex flex-column">
+    <header class="header">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo_size_invert.jpg" class="d-inline-block align-top" alt="" loading="lazy">
+            </a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <div class="mainText">
+            <p>Map your Rewards by dragging and dropping to any categories!!</p>
+        </div>
+        <div class="contentheader">
+            <div class="contentheaderText">Rewards</div>
+            <div class="contentheaderText">Category</div>
+        </div>
+        <div class="categoryheader">
+            <div class="categoryheaderText"></div>
+            <div class="categoryheaderText">C1</div>
+            <div class="categoryheaderText">C2</div>
+            <div class="categoryheaderText">C3</div>
+            <div class="categoryheaderText">C4</div>
+            <div class="categoryheaderText">C5</div>
+        </div>
+        <div class="wrapper">
+            <div id="A" class="list-group">
+                <div class="list-group-item">R1</div>
+                <div class="list-group-item">R2</div>
+                <div class="list-group-item">R3</div>
+                <div class="list-group-item">R4</div>
+                <div class="list-group-item">R5</div>
+            </div>
+
+            <div id="C1" class="list-group">
+            </div>
+            <div id="C2" class="list-group">
+            </div>
+            <div id="C3" class="list-group">
+            </div>
+            <div id="C4" class="list-group">
+            </div>
+            <div id="C5" class="list-group">
+            </div>
+
+        </div>
+    </main>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <strong>Made by &hearts; Sheetal Patil</strong>
+        </div>
+    </footer>
+</body>
+
+</html>

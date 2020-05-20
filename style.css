@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.header {
+    box-shadow: 0px 5px #0741AD;
+    margin: 1%;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#main-content {
+    flex: 1 0 auto;
+    padding: 1%;
+}
+.mainText{
+    font-size: 18px !important;
+    padding: 1px;
+    color: #0741AD !important;
+    margin-bottom: 1px;
+}
+.contentheader,
+.categoryheader {
+    display: flex;
+    flex-direction: row;
+    color: #0741AD !important;
+
+}
+
+.contentheader {
+    font-size: 24px !important;
+    padding-left: 6% !important;
+}
+
+.categoryheader {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contentheaderText {
+    flex: 1 2px;
+}
+
+.categoryheaderText {
+    flex: 1 2px;
+}
+
+
+.wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px;
+    grid-gap: 1em;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    background-color: #FFFFFF !important;
+    color: #0741AD !important;
+}
+
+.list-group {
+    background-color: #DCE4F3;
+    box-shadow: 1px;
+}
+
+.list-group-item {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    margin: 2%;
+    text-align: center;
+    border-radius: 12px !important;
+    box-shadow: 1px 1px 1px 1px #0741AD;
+}
+
+.fa-window-close{
+    color: #0741AD !important;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
